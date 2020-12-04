@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header{
     background-color: black;
     padding: 20px 0;
@@ -8,13 +11,30 @@ header{
     align-items: center;
    
 }
+.Logo{
+    text-decoration: none;
+    color: yellow;
+    
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 76px;
+}
+h1 strong{
+    color: black;
+    width: 30px;
+    height: 40px;
+    background-color: yellow;
+    
+    border-radius: 5px;
+    padding: 2px;
+}
 .nav-container{
     margin-right:76px;
 }
 .navbar{
     text-decoration: none;
     color: yellow;
-    font-family: 'Roboto', sans-serif;
+  
     margin:0 auto 0 15px;
     padding: 10px;
     border-radius: 15px;
@@ -28,29 +48,27 @@ header{
     
 }
 
-
-.Logo{
-    text-decoration: none;
-    color: yellow;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-left: 76px;
-}
-h1 strong{
-    color: black;
-    width: 30px;
-    height: 40px;
-    background-color: yellow;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 5px;
-    padding: 2px;
-}
 main{
-    width: 70%;
-    height: 479px;
+    background-color: burlywood;
+    
     
 
+}
+.main-container{
+    padding: 20px;
+
+    
+}
+.filmes-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.filme{
+    margin: 10px;
+    border-radius: 5%;
 }
 footer{
     background-color: black;
