@@ -1,0 +1,72 @@
+header{
+    background-color: black;
+    padding: 20px 0;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav-container{
+    margin-right:76px;
+}
+.navbar{
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    margin:0 auto 0 15px;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.navbar:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: yellow;
+    border-radius: 15px;
+    
+}
+
+
+.Logo{
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 76px;
+}
+h1 strong{
+    color: black;
+    width: 30px;
+    height: 40px;
+    background-color: yellow;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 2px;
+}
+main{
+    width: 70%;
+    height: 479px;
+    
+
+}
+footer{
+    background-color: black;
+    padding: 20px 0;
+    margin: auto 0;
+    
+}
+.flex-container1{
+    margin: 0 38% 1% 38%;
+    display: flex;
+    justify-content: space-around;
+}
+.direitosAutorais{
+    color: yellow;
+    text-align: center;
+}
+
+
+
